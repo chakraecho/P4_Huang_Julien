@@ -9,9 +9,6 @@
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-
 	<title>La chouette agence</title>
 
 
@@ -250,7 +247,21 @@
 
 	</main>
 	<!-- Principal conteneur END -->
+	<script>
+		var giftofspeed = document.createElement('link');
+		giftofspeed.rel = 'stylesheet';
+		giftofspeed.href = '../css/font-awesome.css';
+		giftofspeed.type = 'text/css';
+		var godefer = document.getElementsByTagName('link')[0];
+		godefer.parentNode.insertBefore(giftofspeed, godefer);
 
+		var giftofspeed2 = document.createElement('link');
+		giftofspeed2.rel = 'stylesheet';
+		giftofspeed2.href = '../css/et-line.css';
+		giftofspeed2.type = 'text/css';
+		var godefer2 = document.getElementsByTagName('link')[0];
+		godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+	</script>
 
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
